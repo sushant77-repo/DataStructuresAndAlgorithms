@@ -6,7 +6,7 @@ public class BottomUp {
         int sum = 5;
         int n = coins.length;
 
-        System.out.println("=============== " + coinChange(coins, sum, n) + " ================");
+        System.out.println("=============== " + coinChange(coins, sum, n) + " ===============");
     }
 
     public static int coinChange(int[] coins, int sum, int n) {

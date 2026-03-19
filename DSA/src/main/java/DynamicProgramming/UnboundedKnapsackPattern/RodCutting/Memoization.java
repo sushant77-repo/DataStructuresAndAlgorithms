@@ -14,7 +14,7 @@ public class Memoization {
         dp = new int[n + 1][l + 1];
         Arrays.stream(dp).forEach(row -> Arrays.fill(row, -1));
 
-        System.out.println("=============== " + rodCutting(len, price, l, len.length) + " ================");
+        System.out.println("=============== " + rodCutting(len, price, l, len.length) + " ===============");
     }
 
     public static int rodCutting(int[] len, int[] price, int n, int l) {

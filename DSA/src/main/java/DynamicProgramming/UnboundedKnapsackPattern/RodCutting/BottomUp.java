@@ -5,7 +5,7 @@ public class BottomUp {
         int[] len = {1, 2, 3, 4, 5};
         int[] price = {2, 8, 12, 14, 16};
         int l = 5;
-        System.out.println("=============== " + rodCutting(len, price, l, len.length) + " ================");
+        System.out.println("=============== " + rodCutting(len, price, l, len.length) + " ===============");
     }
 
     public static int rodCutting(int[] len, int[] price, int n, int l) {

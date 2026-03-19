@@ -18,7 +18,7 @@ public class Memoization {
             }
         }
 
-        System.out.println("=============== " + LCS(s1, s2, m, n) + " ================");
+        System.out.println("=============== " + LCS(s1, s2, m, n) + " ===============");
     }
 
     public static int LCS(String s1, String s2, int m, int n) {
