@@ -8,10 +8,10 @@ public class BottomUp {
         int m = s1.length();
         int n = s2.length();
 
-        System.out.println("=============== " + ReturnLCS(s1, s2, m, n) + " ===============");
+        System.out.println("=============== " + returnLCS(s1, s2, m, n) + " ===============");
     }
 
-    public static String ReturnLCS(String s1, String s2, int m, int n) {
+    public static String returnLCS(String s1, String s2, int m, int n) {
         // create and initialize dp
         int[][] dp = new int[m + 1][n + 1];
         for (int i = 0; i <= m; i++) {
