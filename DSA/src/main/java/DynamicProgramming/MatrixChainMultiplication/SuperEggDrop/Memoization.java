@@ -28,6 +28,9 @@ public class Memoization {
             return n;
         }
 
+        // check if already calculated
+        if (dp[k][n] != -1) return dp[k][n];
+
         int ans = Integer.MAX_VALUE;
 
         int l = 1;
@@ -45,6 +48,9 @@ public class Memoization {
                 r = mid - 1;
             }
         }
+
+        // store in DP for future use
+        dp[k][n] = ans;
 
         return ans;
     }
